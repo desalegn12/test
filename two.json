@@ -1,0 +1,442 @@
+{
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "dataType": "string",
+        "fieldType": "TextField",
+        "validation": {
+          "required": "id is required"
+        }
+      },
+      {
+        "name": "tabs",
+        "label": "Tab",
+        "dataType": "string",
+        "fieldType": "Lable"
+       
+      },
+      [
+        {
+          "name": "tabs.title",
+          "label": "Tab title",
+          "dataType": "string",
+          "fieldType": "TextField",
+          "validation": {
+            "required": "Tab title is required"
+          }
+        },
+        {
+          "name": "tabs.iconifyIconId",
+          "label": "Iconify Icon Id",
+          "dataType": "string",
+          "fieldType": "TextField",
+          "validation": {
+            "required": "Iconify Icon Id is required"
+          }
+        },
+        {
+          "name": "tabs.tabIndex",
+          "label": "Tab Index",
+          "dataType": "number",
+          "fieldType": "TextField",
+          "validation": {
+            "required": "Tab Index is required"
+          }
+        },
+        {
+          "name": "initialFilterPanelState",
+          "label": "Tab - Initial Filter Panel State",
+          "dataType": "string",
+          "fieldType": "Lable"
+         
+        },[
+          {
+            "name": "tabs.initialFilterPanelState.id",
+            "label": "Id",
+            "dataType": "number",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "Id is required"
+            }
+          },
+          {
+            "name": "tabs.initialFilterPanelState.operatorValue",
+            "label": "operatorValue",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "operatorValue is required"
+            }
+          },  {
+            "name": "tabs.initialFilterPanelState.colType",
+            "label": "column type",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "colType is required"
+            }
+          },  {
+            "name": "tabs.initialFilterPanelState.value",
+            "label": "value",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "value is required"
+            }
+          },  {
+            "name": "tabs.initialFilterPanelState.columnField",
+            "label": "column field",
+            "dataType": "strig",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "columnField is required"
+            }
+          }
+        ],
+        {
+          "name": "tabs.availableFilterFields",
+          "label": "Available Filter Fields",
+          "dataType": "strig",
+          "fieldType": "TextField",
+          "validation": {
+            "required": "availableFilterFields is required"
+          }
+        },
+        {
+          "name": "maxAndMinDates",
+          "label": "Tab - Max And Min Dates",
+          "dataType": "string",
+          "fieldType": "Lable"
+         
+        },
+        [
+          {
+            "name": "tabs.maxAndMinDates.jobType",
+            "label": "Job Type",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "Job Type is required"
+            }
+          },
+          {
+            "name": "tabs.maxAndMinDates.table",
+            "label": "Table",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "Table is required"
+            }
+          },
+          {
+            "name": "tabs.maxAndMinDates.dateDimension",
+            "label": "Date Dimension",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "Date Dimension is required"
+            }
+          }
+        ],
+        {
+          "name": "dataViews",
+          "label": "Tab - Data Views",
+          "dataType": "string",
+          "fieldType": "Lable"
+         
+        },
+        [
+          {
+            "name": "tabs.dataViews.id",
+            "label": "Data Views Id",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "Data Views Id is required"
+            }
+          },
+          {
+            "name": "tabs.dataViews.position",
+            "label": "position",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "position is required"
+            }
+          },
+          {
+            "name": "tabs.dataViews.dataModelId",
+            "label": "dataModelId",
+            "dataType": "string",
+            "fieldType": "TextField",
+            "validation": {
+              "required": "dataModelId is required"
+            }
+          },
+          {
+            "name": "viewSettings",
+            "label": "Data Views - View Settings",
+            "dataType": "string",
+            "fieldType": "Lable"
+           
+          },
+          [
+            {
+              "name": "tabs.dataViews.viewSettings.chartType",
+              "label": "chartType",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "chartType is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.viewSettings.chartHeight",
+              "label": "chartHeight",
+              "dataType": "number",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "chartHeight is required"
+              }
+            },
+            [
+              {
+                "name": "tabs.dataViews.viewSettings.grid.sm",
+                "label": "sm",
+                "dataType": "number",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "sm is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.viewSettings.grid.md",
+                "label": "md",
+                "dataType": "number",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "md is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.viewSettings.grid.lg",
+                "label": "lg",
+                "dataType": "number",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "lg is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.viewSettings.grid.xl",
+                "label": "xl",
+                "dataType": "number",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "xl is required"
+                }
+              }
+            ]
+          ],
+          {
+            "name": "viewSettings",
+            "label": "Data Views - SQL",
+            "dataType": "string",
+            "fieldType": "Lable"
+           
+          },
+          [
+            {
+              "name": "tabs.dataViews.sql.table",
+              "label": "sql table",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "table is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.sql.dimensions",
+              "label": "dimensions",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "dimensions is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.sql.dateAggregationFields",
+              "label": "dateAggregationFields",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "dateAggregationFields is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.sql.includeLastYear",
+              "label": "includeLastYear",
+              "dataType": "boolean",
+              "fieldType": "Checkbox",
+              "validation": {
+                "required": "includeLastYear is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.sql.limitRows",
+              "label": "limitRows",
+              "dataType": "boolean",
+              "fieldType": "Checkbox",
+              "validation": {
+                "required": "limitRows is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.sql.includeYoy",
+              "label": "includeYoy",
+              "dataType": "boolean",
+              "fieldType": "Checkbox",
+              "validation": {
+                "required": "includeYoy is required"
+              }
+            },
+            {
+              "name": "viewSettings",
+              "label": "SQL - Aggregate Field",
+              "dataType": "string",
+              "fieldType": "Lable"
+             
+            },
+            {
+              "name": "tabs.dataViews.sql.jobType",
+              "label": "job Types",
+              "fieldType": "Autocomplete",
+              "source": "jobTypes",
+              "dataType": "array",
+              "validation": {
+                "required": "job types is required"
+              }
+            },
+            
+            [
+              {
+                "name": "tabs.dataViews.sql.AggregateField.name",
+                "label": "Aggregate Field name",
+                "dataType": "string",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "name is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.sql.AggregateField.aggregation",
+                "label": "aggregation Types",
+                "fieldType": "Autocomplete",
+                "source": "defaultAggregation",
+                "dataType": "array",
+                "validation": {
+                  "required": "aggregation types is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.sql.AggregateField.distinct",
+                "label": "distinct",
+                "dataType": "boolean",
+                "fieldType": "Checkbox"
+              }
+            ],
+           
+            {
+              "name": "viewSettings",
+              "label": "SQL - Order By",
+              "dataType": "string",
+              "fieldType": "Lable"
+             
+            },
+            [
+              {
+                "name": "tabs.dataViews.sql.orderBy.name",
+                "label": "orderBy Field name",
+                "dataType": "string",
+                "fieldType": "TextField",
+                "validation": {
+                  "required": "name is required"
+                }
+              },
+              {
+                "name": "tabs.dataViews.sql.orderBy.direction",
+                "label": "direction Types",
+                "fieldType": "Autocomplete",
+                "source": "directions",
+                "dataType": "array",
+                "validation": {
+                  "required": "direction types is required"
+                }
+              }
+            ]
+          ],
+          {
+            "name": "viewSettings",
+            "label": "Data Views - Labels",
+            "dataType": "string",
+            "fieldType": "Lable"
+           
+          },
+          [
+            {
+              "name": "tabs.dataViews.labels.title",
+              "label": "title",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "title is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.labels.helpSubheading",
+              "label": "helpSubheading",
+              "dataType": "string",
+              "fieldType": "TextField",
+              "validation": {
+                "required": "helpSubheading is required"
+              }
+            },
+            {
+              "name": "tabs.dataViews.labels.includeMetricInHeading",
+              "label": "includeLastYear",
+              "dataType": "boolean",
+              "fieldType": "Checkbox"
+              
+            },
+            {
+              "name": "viewSettings",
+              "label": "Labels - No DataMessage",
+              "dataType": "string",
+              "fieldType": "Lable"
+             
+            },
+            [
+              {
+                "name": "tabs.dataViews.labels.noDataMessage.title",
+                "label": "title",
+                "dataType": "string",
+                "fieldType": "TextField"
+              
+              },
+              {
+                "name": "tabs.dataViews.labels.noDataMessage.helpSubheading",
+                "label": "helpSubheading",
+                "dataType": "string",
+                "fieldType": "TextField"
+               
+              }
+            ]
+          ]
+        ]
+      ]
+    ]
+  }
+  
+  
+  

@@ -1,0 +1,31 @@
+{
+    "fields": [
+      {
+        "name": "name",
+        "label": "Customer Name",
+        "dataType": "string",
+        "fieldType": "TextField",
+        "validation": {
+          "required": "Customer name is required"
+        }
+      },
+      {
+        "name": "dashboards",
+        "label": "Dashboard Types",
+        "fieldType": "MultiAutocomplete",
+        "source": "dashboardTypes",
+        "dataType": "array",
+        "validation": {
+            "required": "Dashboard types is required",
+            "dimension": "Inputted value is not an accepted dashboard type"
+        }
+      },
+      {
+        "name": "createdAt",
+        "label": "Created At",
+        "dataType": "string",
+        "fieldType": "hidden"
+      }
+    ]
+  }
+  
